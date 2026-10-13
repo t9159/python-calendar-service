@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>בחירת משחק</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="welcomeMsg">שלום משתמש</h1>
+        <button id="logoutBtn">התנתק</button>
+    </header>
+    <div class="games-grid">
+        <a href="../games/number_game/index.html" class="game-card">
+            <h2>אתגר המספרים</h2>
+            <p>מצא את המספר הנכון מהר ככל האפשר!</p>
+            <span class="status active">פעיל</span>
+        </a>
+        <a href="../games/canvas_challenge/index.html" class="game-card challenge">
+            <h2>תפיסת צורות</h2>
+            <p>משחק אתגר מתקדם</p>
+            <span class="status active">פעיל</span>
+        </a>
+        <a href="../games/memory_game/index.html" class="game-card">
+            <h2>משחק הזיכרון</h2>
+            <p>התאמת זוגות של פריטים תואמים</p>
+            <span class="status active">פעיל</span>
+        </a>
+        <div class="game-card disabled">
+            <h2>פאזל צבעים</h2>
+            <span class="status dev">עדיין בפיתוח, בתקווה להבנה🙏</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

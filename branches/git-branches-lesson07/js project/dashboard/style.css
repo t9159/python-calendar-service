@@ -1,0 +1,12 @@
+/* יש להעתיק את הגדרות ה-body מהקובץ הקודם */
+body { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; display: block; padding: 20px; font-family: sans-serif; text-align: center; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 10px 40px; background: rgba(0,0,0,0.2); border-radius: 10px; margin-bottom: 30px; }
+#logoutBtn { width: auto; background: #576574; }
+.games-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.game-card { background: rgba(255,255,255,0.1); width: 250px; padding: 20px; border-radius: 10px; text-decoration: none; color: white; transition: 0.3s; border: 2px solid transparent; }
+.game-card:hover { transform: translateY(-5px); border-color: white; }
+.game-card.disabled { opacity: 0.6; cursor: not-allowed; }
+.game-card.disabled:hover { transform: none; border-color: transparent; }
+.status { display: inline-block; padding: 5px 10px; border-radius: 15px; font-size: 12px; margin-top: 15px; }
+.status.active { background: #2ed573; }
+.status.dev { background: #ffa502; }
